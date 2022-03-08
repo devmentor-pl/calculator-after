@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Game of colors and calculator | devmentor.pl</title>
+    </head>
+    <body>        
+        <h1>Calculator</h1>
+        <form class="calculatorForm">
+            <div style="display: flex; flex-direction: column">
+            <label>Number 1: <input name="number1"></label>
+            <label>Number 2: <input name="number2"></label>
+                <label><input type="radio" id="add" name="operation" value="+">+</label>
+                <label><input type="radio" id="subtract" name="operation" value="-">-</label>
+                <label><input type="radio" id="multiply" name="operation" value="*">*</label>
+                <label><input type="radio" id="divide" name="operation" value="/">/</label>
+                <label><input type="radio" id="modulo" name="operation" value="%">%</label>
+            </div>
+            <button type="submit">Wykonaj</button>
+            <p>Wynik: <span class="result"></span></p>
+        </form>
+    </body>
+    <script src="index.js"></script>
+</html>
